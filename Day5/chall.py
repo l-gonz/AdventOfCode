@@ -51,5 +51,3 @@ with open("Day5/input.txt") as file:
             add_to_grid(grid, next_point.tuple)
 
 print(sum(map(lambda key: grid[key] > 1, grid.keys())))
-
-        
